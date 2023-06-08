@@ -1,0 +1,110 @@
+Results for blastingHistones/H3/cbx1.c.elegans.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/c.elegans.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 30 hits found
+NP_003520.1	NP_507033.1	97.059	136	4	0	1	136	1	136	4.46e-94	267
+
+
+
+Results for blastingHistones/H3/cbx1.ciliate.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/ciliate.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+NP_003520.1	XP_012655226.1	88.148	135	16	0	1	135	1	135	8.41e-86	246
+
+
+
+Results for blastingHistones/H3/cbx1.drosophila.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/drosophila.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 44 hits found
+NP_003520.1	NP_724345.1	99.265	136	1	0	1	136	1	136	9.39e-96	272
+
+
+
+Results for blastingHistones/H3/cbx1.e.coli.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/e.coli.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+NP_003520.1	NP_416349.2	34.091	44	29	0	50	93	362	405	0.90	26.2
+
+
+
+Results for blastingHistones/H3/cbx1.human.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/human.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 39 hits found
+NP_003520.1	NP_066298.1	100.000	136	0	0	1	136	1	136	2.19e-96	275
+
+
+
+Results for blastingHistones/H3/cbx1.methanocaldococcus.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/methanocaldococcus.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+NP_003520.1	WP_015790767.1	30.645	62	38	1	67	128	8	64	0.034	27.3
+
+
+
+Results for blastingHistones/H3/cbx1.mouse.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/mouse.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 30 hits found
+NP_003520.1	NP_835514.1	100.000	136	0	0	1	136	1	136	1.54e-96	275
+
+
+
+Results for blastingHistones/H3/cbx1.thermococcus.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/thermococcus.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+NP_003520.1	WP_011250364.1	32.258	62	37	1	67	128	8	64	0.057	27.3
+
+
+
+Results for blastingHistones/H3/cbx1.tuberculosis.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/tuberculosis.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+NP_003520.1	NP_214529.1	57.895	19	8	0	23	41	313	331	4.6	23.9
+
+
+
+Results for blastingHistones/H3/cbx1.yeast.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/yeast.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+NP_003520.1	NP_014367.1	88.971	136	15	0	1	136	1	136	3.31e-87	248
+
+
+
+Results for blastingHistones/H3/cbx1.zebrafish.blast:
+# BLASTP 2.14.0+
+# Query: NP_003520.1 H3C1 [organism=Homo sapiens] [GeneID=8350]
+# Database: proteomes/zebrafish.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 25 hits found
+NP_003520.1	XP_017209710.1	99.265	136	1	0	1	136	1	136	1.77e-95	272
+
+
+

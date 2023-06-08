@@ -1,0 +1,21 @@
+#!/bin/bash
+
+dirname=../blastingProteomes
+
+if [ ! -d "$dirname" ]; then
+  mkdir $dirname
+else
+  rm -r $dirname/*
+fi
+
+blastp -query cbx1.fasta -db ../proteomes/c.elegans.faa -out $dirname/cbx1.c.elegans.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/ciliate.faa -out $dirname/cbx1.ciliate.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/drosophila.faa -out $dirname/cbx1.drosophila.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/e.coli.faa -out $dirname/cbx1.e.coli.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/human.faa -out $dirname/cbx1.human.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/methanocaldococcus.faa -out $dirname/cbx1.methanocaldococcus.blast -outfmt 7 
+blastp -query cbx1.fasta -db ../proteomes/mouse.faa -out $dirname/cbx1.mouse.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/thermococcus.faa -out $dirname/cbx1.thermococcus.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/tuberculosis.faa -out $dirname/cbx1.tuberculosis.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/yeast.faa -out $dirname/cbx1.yeast.blast -outfmt 7
+blastp -query cbx1.fasta -db ../proteomes/zebrafish.faa -out $dirname/cbx1.zebrafish.blast -outfmt 7

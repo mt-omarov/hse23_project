@@ -1,0 +1,11 @@
+#!/bin/bash
+
+f=../proteomesResults.txt
+> $f
+
+for file in ../blastingProteomes/*.blast
+do
+  echo "Results for $file:" >> $f
+  head -n 6 $file >> $f
+  echo -e "\n\n" >> $f
+done  

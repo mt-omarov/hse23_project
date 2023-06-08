@@ -1,0 +1,30 @@
+#!/bin/bash
+
+if [ ! -d "../blastingHistones" ]; then
+  mkdir ../blastingHistones
+else 
+  rm -r ../blastingHistones/*
+fi
+
+for file in ../histones/*.fasta
+do
+  filename=$(basename "$file" .fasta)
+  if [ -d "../blastingHistones/$filename" ]; then
+    rm  ../blastingHistones/$filename/*
+  else 
+   mkdir ../blastingHistones/$filename
+  fi
+
+  blastp -query $file -db proteomes/c.elegans.faa -out ../blastingHistones/$filename/cbx1.c.elegans.blast -outfmt 7
+  blastp -query $file -db proteomes/ciliate.faa -out ../blastingHistones/$filename/cbx1.ciliate.blast -outfmt 7
+  blastp -query $file -db proteomes/drosophila.faa -out ../blastingHistones/$filename/cbx1.drosophila.blast -outfmt 7
+  blastp -query $file -db proteomes/e.coli.faa -out ../blastingHistones/$filename/cbx1.e.coli.blast -outfmt 7
+  blastp -query $file -db proteomes/human.faa -out ../blastingHistones/$filename/cbx1.human.blast -outfmt 7
+  blastp -query $file -db proteomes/methanocaldococcus.faa -out ../blastingHistones/$filename/cbx1.methanocaldococcus.blast -outfmt 7 
+  blastp -query $file -db proteomes/mouse.faa -out ../blastingHistones/$filename/cbx1.mouse.blast -outfmt 7
+  blastp -query $file -db proteomes/thermococcus.faa -out ../blastingHistones/$filename/cbx1.thermococcus.blast -outfmt 7
+  blastp -query $file -db proteomes/tuberculosis.faa -out ../blastingHistones/$filename/cbx1.tuberculosis.blast -outfmt 7
+  blastp -query $file -db proteomes/yeast.faa -out ../blastingHistones/$filename/cbx1.yeast.blast -outfmt 7
+  blastp -query $file -db proteomes/zebrafish.faa -out ../blastingHistones/$filename/cbx1.zebrafish.blast -outfmt 7
+  echo "Completed actions for $filename"
+done

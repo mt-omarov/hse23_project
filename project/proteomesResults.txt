@@ -1,0 +1,110 @@
+Results for blastingProteomes/cbx1.c.elegans.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/c.elegans.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 16 hits found
+NP_001120700.1	NP_510199.1	36.774	155	84	4	15	169	31	171	1.36e-25	97.1
+
+
+
+Results for blastingProteomes/cbx1.ciliate.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/ciliate.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 21 hits found
+NP_001120700.1	XP_001031547.2	53.061	49	21	2	21	67	192	240	4.17e-09	55.5
+
+
+
+Results for blastingProteomes/cbx1.drosophila.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/drosophila.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 48 hits found
+NP_001120700.1	NP_572521.2	58.228	158	53	3	20	171	3	153	4.68e-55	174
+
+
+
+Results for blastingProteomes/cbx1.e.coli.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/e.coli.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+NP_001120700.1	NP_415749.1	23.077	39	30	0	42	80	75	113	3.2	24.6
+
+
+
+Results for blastingProteomes/cbx1.human.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/human.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 104 hits found
+NP_001120700.1	NP_006798.1	100.000	185	0	0	1	185	1	185	4.21e-132	369
+
+
+
+Results for blastingProteomes/cbx1.methanocaldococcus.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/methanocaldococcus.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+NP_001120700.1	WP_015790758.1	35.714	28	18	0	156	183	58	85	0.36	26.6
+
+
+
+Results for blastingProteomes/cbx1.mouse.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/mouse.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 116 hits found
+NP_001120700.1	XP_017169731.1	100.000	185	0	0	1	185	1	185	2.95e-132	369
+
+
+
+Results for blastingProteomes/cbx1.thermococcus.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/thermococcus.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+NP_001120700.1	WP_011250199.1	24.691	81	50	3	107	177	20	99	5.6	23.1
+
+
+
+Results for blastingProteomes/cbx1.tuberculosis.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/tuberculosis.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+NP_001120700.1	NP_218004.3	50.000	22	11	0	114	135	76	97	3.2	25.0
+
+
+
+Results for blastingProteomes/cbx1.yeast.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/yeast.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 8 hits found
+NP_001120700.1	NP_011712.1	42.105	38	16	2	144	179	566	599	0.84	28.1
+
+
+
+Results for blastingProteomes/cbx1.zebrafish.blast:
+# BLASTP 2.14.0+
+# Query: NP_001120700.1 chromobox protein homolog 1 [Homo sapiens]
+# Database: proteomes/zebrafish.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 97 hits found
+NP_001120700.1	XP_005156294.1	83.696	184	21	2	2	185	29	203	2.25e-91	266
+
+
+

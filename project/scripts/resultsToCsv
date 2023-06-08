@@ -1,0 +1,11 @@
+#!/bin/bash
+
+f=../results.csv
+> $f
+echo "Human,Mouse,Zebrafish,C.elegans,Drosophila,Ciliate,Yeast,Methanocaldococcus,Thermococcus,Tuberculosis,E.coli" > $f
+echo "H4,,,,,,,,,," >> $f
+echo "H3,,,,,,,,,," >> $f
+echo "H2B,,,,,,,,,," >> $f
+echo "H2A,,,,,,,,,," >> $f
+echo "EZH1,,,,,,,,,," >> $f
+

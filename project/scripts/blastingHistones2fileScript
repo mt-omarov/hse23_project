@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for dir in ../blastingHistones/*/
+do
+  > ${dir%%/}.txt
+  for file in ${dir%%/}/*
+  do
+    echo "Results for $file:" >> ${dir%%/}.txt
+    head -n 6 $file >> ${dir%%/}.txt
+    echo -e "\n\n" >> ${dir%%/}.txt
+  done
+done  
